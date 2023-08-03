@@ -15,5 +15,5 @@ on:
                 - name: Install dependencies
                   run: npm install
                 - name: Run tests
-                  run: npm run test:ci
+                  run: npm run test
                   
