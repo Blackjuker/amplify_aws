@@ -17,4 +17,4 @@ jobs:
             - name: Run tests
               run: npm run test
             - name: Print success message2
-              run: echo "Success! all the tests passed , the deployment could be done now"
+              run: "amplify publish --yes"
