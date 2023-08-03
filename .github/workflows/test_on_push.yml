@@ -21,7 +21,7 @@ jobs:
               run: amplify push --yes  
               env:
                 AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-                AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY }}
+                AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_ACCESS_KEY_ID }}
                 AWS_REGION: us-east-1
             - name: is publiched success
               run: echo "version published successly ! :rocket:"
